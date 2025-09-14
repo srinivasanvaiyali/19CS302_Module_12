@@ -6,22 +6,22 @@ To write a C function to perfom push,pop and peek functions in Stack using Linke
 ## Algorithm
 1. Start
 2. Define a structure Node with two fields:
-    *data (float type)
-    *next (pointer to the next node)
+    * data (float type)
+    * next (pointer to the next node)
 3. Initialize top as NULL (empty stack).
 4. Push Operation:
-    *Create a new node.
-    *Assign the float value to data.
-    *Set next to top.
+    * Create a new node.
+    * Assign the float value to data.
+    * Set next to top.
     *Update top to point to the new node.
 5. Pop Operation:
-    *Check if top is NULL (stack is empty).
-    *If not, store top->data.
-    *Update top to top->next.
-    *Free the popped node’s memory.
+    * Check if top is NULL (stack is empty).
+    * If not, store top->data.
+    * Update top to top->next.
+    * Free the popped node’s memory.
 6. Peek Operation:
-    *Check if top is NULL.
-    *If not, display top->data.
+    * Check if top is NULL.
+    * If not, display top->data.
 7. End 
   
 
